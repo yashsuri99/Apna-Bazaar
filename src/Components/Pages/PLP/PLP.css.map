@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,kBAAkB,CAAC;EACf,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,aAAa;CAWjC;;AATI,AAAD,uBAAM,CAAC;EACH,IAAI,EAAE,QAAQ;CAOjB;;AANG,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAFtC,AAAD,uBAAM,CAAC;IAGC,IAAI,EAAE,OAAO;GAKpB;;;AAHG,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EALvC,AAAD,uBAAM,CAAC;IAMC,IAAI,EAAE,OAAO;GAEpB",
+    "sources": [
+        "PLP.scss",
+        "../../../Styles/_variables.scss"
+    ],
+    "names": [],
+    "file": "PLP.css"
+}

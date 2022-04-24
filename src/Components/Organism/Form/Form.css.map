@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,KAAK,CAAC;EACF,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,KAAK;EAClB,OAAO,EAAE,MAAM;CASlB;;AAPI,AAAD,kBAAc,CAAC;EACX,KAAK,EAAE,GAAG;CAKb;;AAHG,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAHvC,AAAD,kBAAc,CAAC;IAIP,KAAK,EAAE,GAAG;GAEjB",
+    "sources": [
+        "Form.scss",
+        "../../../styles/_imports.scss",
+        "../../../styles/_varsColor.scss",
+        "../../../styles/_varsMargin.scss",
+        "../../../styles/_varsPadding.scss",
+        "../../../styles/_variables.scss"
+    ],
+    "names": [],
+    "file": "Form.css"
+}

@@ -1,0 +1,9 @@
+@import "../../../styles/imports";
+.button-wrapper1 {
+    border-radius: 0;
+    border-color: transparent;
+    background-color: $button-color;
+    color: white;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}

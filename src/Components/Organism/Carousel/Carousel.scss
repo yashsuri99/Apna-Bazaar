@@ -1,0 +1,39 @@
+@import '../../../styles/variables';
+
+.swiper {
+    // box-shadow: 0px 0px 10px 0px #9e9e9e;
+    margin-top: 20px; 
+    width: 90%;
+
+    @media (max-width: $mobile-breakpoint)  {
+        height: 110px;  
+        
+    }
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 80%;
+    height: 70%;
+    object-fit: cover;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            list-style: none;
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        body{
+            background: #f5f6fa;
+        }
+
+        .wrapper .sidebar{
+            background: rgb(233, 232, 232);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 225px;
+            height: 100%;
+            padding: 20px 0;
+            transition: all 0.5s ease;
+        }
+
+        .wrapper .sidebar ul li a{
+            display: block;
+            padding: 13px 30px;
+            border-bottom: 1px solid rgb(145, 143, 143);
+            color: black;
+            font-size: 16px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="#" class="active">
+                        <span class="item">Fruits and Vegetables</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="item">Bakery Cakes and Dairy</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="item">Beverages</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="item">Beauty and Hygiene</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="item">Baby Care</span>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>

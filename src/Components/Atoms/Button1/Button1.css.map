@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,QAAQ,CAAC;EACL,OAAO,EAAE,KAAK;EACd,aAAa,EAAE,GAAG;EAClB,UAAU,EAAE,MAAM;EAClB,eAAe,EAAE,IAAI;EACrB,SAAS,EKEI,MAAM;ELDnB,OAAO,EAAE,MAAM;EACf,MAAM,EAAE,cAAc;EACtB,gBAAgB,EKNL,OAAO;ELOlB,KAAK,EKLW,IAAI;ELMpB,MAAM,EAAE,OAAO;EACf,QAAQ,EAAE,QAAQ;CASrB;;AApBD,AAYI,QAZI,AAYH,OAAO,CAAC;EACL,GAAG,EAAE,KAAK;EACV,IAAI,EAAE,KAAK;CACd;;AACD,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAhBvC,AAAA,QAAQ,CAAC;IAiBD,SAAS,EKTC,MAAM;ILUhB,OAAO,EAAE,MAAM;GAEtB",
+    "sources": [
+        "Button1.scss",
+        "../../../styles/_imports.scss",
+        "../../../styles/_varsColor.scss",
+        "../../../styles/_varsMargin.scss",
+        "../../../styles/_varsPadding.scss",
+        "../../../styles/_variables.scss"
+    ],
+    "names": [],
+    "file": "Button1.css"
+}

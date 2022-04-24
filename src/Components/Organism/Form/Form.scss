@@ -1,0 +1,16 @@
+@import "../../../styles/imports";
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 3rem;
+
+    &-login-button {
+        width: 80%;
+
+        @media screen and (max-width: $breakpoint-tablet) {
+            width: 80%;
+        }
+    }
+}

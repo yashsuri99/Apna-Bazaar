@@ -1,0 +1,50 @@
+.register-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: hidden;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 7rem;
+  padding-bottom: 1.5rem;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .register-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.register-container-text {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .register-container-text {
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+  }
+}
+
+.register-container-form {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+  padding-bottom: 10px;
+}
+/*# sourceMappingURL=SignUp.css.map */

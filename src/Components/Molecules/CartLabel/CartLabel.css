@@ -1,0 +1,37 @@
+.cart__label {
+  margin: 1rem 0.5rem;
+  padding: 0.5rem;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cart__label__image {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / 3;
+  max-width: 7rem;
+  max-height: 70px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  padding: 0rem 0.5rem;
+}
+
+.cart__label__text {
+  font-size: 0.8rem;
+  padding-left: 0.5rem;
+  color: #4d4d4d;
+}
+
+@media screen and (min-width: 481px) {
+  .cart__label {
+    padding: 0.5rem 1rem;
+  }
+}
+/*# sourceMappingURL=CartLabel.css.map */

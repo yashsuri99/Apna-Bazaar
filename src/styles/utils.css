@@ -1,0 +1,158 @@
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-3 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-4 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-4 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.mx-3 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-4 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-4 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.float-l {
+  float: left;
+}
+
+.float-r {
+  float: right;
+}
+
+.list-unstyled {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.d-inline {
+  display: inline-block !important;
+}
+
+.d-desktop {
+  display: none !important;
+}
+
+.d-tablet {
+  display: none !important;
+}
+
+.btn-primary {
+  background-color: #0268d9;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #d22332;
+  color: white;
+}
+
+.btn:disabled {
+  cursor: none;
+  opacity: 0.8;
+}
+
+.sr-only {
+  position: absolute !important;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+  color: white;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  /*here auto is for left and right, the remaining 4% will be divided equally*/
+}
+
+/*for deskstop*/
+@media (min-width: 992px) {
+  .container {
+    width: 80%;
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 767px) {
+  .d-mobile {
+    display: none !important;
+  }
+  .d-desktop {
+    display: contents !important;
+  }
+}
+/*# sourceMappingURL=utils.css.map */

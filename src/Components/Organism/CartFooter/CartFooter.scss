@@ -1,0 +1,30 @@
+.cart {
+    &__footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #fff;
+        align-items: center;
+        padding-top: 0.1rem;
+        overflow-y: hidden;
+
+        &__label {
+            background-color: white;
+            height: 2rem;
+            text-align: center;
+            padding-top: 0.4rem;
+            &__text {
+                font-size: 0.8rem;
+            }
+        }
+
+        &__button {
+            font-size: 0.8rem;
+            margin-bottom: 1.2rem;
+            width: 95%;
+            padding: 0.7rem 0.5rem;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

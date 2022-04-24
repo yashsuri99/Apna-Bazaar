@@ -1,0 +1,30 @@
+.footer {
+  min-height: 5vh;
+  overflow: hidden;
+  background-color: #ddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.footer-text {
+  color: #212121;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 767px) {
+  .footer-text {
+    font-size: 0.7rem;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

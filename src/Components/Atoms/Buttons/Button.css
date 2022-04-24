@@ -1,0 +1,30 @@
+.button-wrapper {
+  display: block;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  border: 1px solid #eee;
+  background-color: #d42559;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+}
+
+.button-wrapper:active {
+  top: 0.6px;
+  left: 0.6px;
+}
+
+.button-wrapper:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+@media screen and (min-width: 767px) {
+  .button-wrapper {
+    font-size: 0.9rem;
+  }
+}
+/*# sourceMappingURL=Button.css.map */

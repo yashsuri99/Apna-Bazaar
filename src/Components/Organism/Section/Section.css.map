@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,UAAU,CAAC;EACP,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,MAAM;EACf,SAAS,ECcM,MAAM;EDbrB,UAAU,EAAE,GAAG,CAAC,IAAI,CAAC,IAAI,CAAE,KAAI,CAAC,OAAmB;CAStD;;AAPI,AAAD,mBAAU,CAAA;EACN,IAAI,EAAE,CAAC;CACV;;AAXL,AAaI,UAbM,AAaL,eAAgB,CAAA,CAAC,EAAC;EACf,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "Section.scss",
+        "../../../styles/_variables.scss"
+    ],
+    "names": [],
+    "file": "Section.css"
+}

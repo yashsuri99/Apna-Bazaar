@@ -1,0 +1,22 @@
+@import "../../../styles/imports";
+
+.footer {
+    min-height: 5vh;
+    overflow: hidden;
+    background-color: $secondary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+    &-text {
+        color: $text-color;
+
+        font-size: $text-font-size;
+
+        @media (max-width: $breakpoint-mobile) {
+            font-size: 0.7rem;
+        }
+    }
+}

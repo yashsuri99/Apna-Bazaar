@@ -1,0 +1,20 @@
+.logo {
+  margin: 5px 0;
+  width: 135px;
+  height: 65px;
+}
+
+@media screen and (max-width: 1023px) {
+  .logo {
+    width: 120px;
+    height: 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    width: 90px;
+    height: 44px;
+  }
+}
+/*# sourceMappingURL=Logo.css.map */

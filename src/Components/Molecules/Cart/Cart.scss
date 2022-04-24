@@ -1,0 +1,43 @@
+
+.mainCart {
+    width: 25rem;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    left: 78.5%;
+    transform: translate(-50%, 0%);
+    overflow: auto;
+}
+
+.cartProduct{
+    flex: 1;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+@media screen and (max-width: 1023px) {
+
+    .mainCart {
+      height: 88%;
+      width: 101%;
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      margin-top: 5rem;
+      transform: translate(-78%, 0%);
+     
+    }
+  }
+  
+  @media screen and(min-width: 1023px) {
+    .mainCart {
+      height: 82%;
+     
+    }
+  }
+  

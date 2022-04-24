@@ -1,0 +1,39 @@
+@import "../../../styles/variables";
+
+.cart-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $secondary-color;
+    // padding: 0 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+    margin-right: 5px;
+    &-image {
+        width: 40px;
+    }
+    &-text {
+        color: rgb(0, 0, 0);
+        font-size: $text-font-size;
+    }
+}
+
+//ksk-------------
+.cartLayout {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 99;
+}
+
+@media screen and (max-width: 1023px) {
+    .cartLayout {
+        background-color: revert;
+        width: 100%;
+    }
+}

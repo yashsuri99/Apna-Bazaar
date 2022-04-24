@@ -1,0 +1,27 @@
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    /* align-items: center; */
+    min-height: 15vh;
+    padding: 2rem 0;
+    max-width: 1440px;
+    -webkit-box-shadow: 0px 30px 20px -30px #a19f9f;
+    box-shadow: 0px 30px 20px -30px #a19f9f;
+}
+
+.container__content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.container:nth-last-child(1) {
+    border-bottom: none;
+}
+/*# sourceMappingURL=Section.css.map */

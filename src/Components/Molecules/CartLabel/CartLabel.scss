@@ -1,0 +1,56 @@
+// .cart {
+//     &__label {
+//         margin: 1rem 0.5rem;
+//         padding: 0.5rem 0.5rem;
+//         background-color: #fff;
+//         display: flex;
+//         height: 2.7rem;
+//         align-items: center;
+//         overflow-y: hidden;
+
+//         &__image {
+//             grid-row: 2 / 3;
+//             max-width: 7rem;
+//             max-height: 70px;
+//             object-fit: contain;
+//             justify-self: center;
+//             padding: 0rem 0.5rem;
+//         }
+//         &__text {
+//             margin-left: 1rem;
+//             font-size: 0.8rem;
+//         }
+//     }
+// }
+
+//====ks=k==kk=k=
+
+.cart {
+    &__label {
+        margin: 1rem 0.5rem;
+        padding: 0.5rem;
+        background-color: white;
+        display: flex;
+        align-items: center;
+
+        &__image {
+            grid-row: 2 / 3;
+            max-width: 7rem;
+            max-height: 70px;
+            object-fit: contain;
+            justify-self: center;
+            padding: 0rem 0.5rem;
+         }
+        &__text {
+            font-size: 0.8rem;
+            padding-left: 0.5rem;
+            color: #4d4d4d;
+        }
+    }
+}
+
+@media screen and (min-width: 481px){
+    .cart__label {
+        padding: 0.5rem 1rem;
+    }
+    }

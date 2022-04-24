@@ -1,0 +1,24 @@
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  padding: 0 3rem;
+}
+
+.form-login-button {
+  width: 80%;
+}
+
+@media screen and (max-width: 1023px) {
+  .form-login-button {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=Form.css.map */

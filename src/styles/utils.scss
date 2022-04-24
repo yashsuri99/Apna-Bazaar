@@ -1,0 +1,157 @@
+@import "imports";
+
+.px-1 {
+    padding-left: $padding-1;
+    padding-right: $padding-1;
+}
+
+.px-2 {
+    padding-left: $padding-2;
+    padding-right: $padding-2;
+}
+
+.px-3 {
+    padding-left: $padding-3;
+    padding-right: $padding-3;
+}
+
+.px-4 {
+    padding-left: $padding-4;
+    padding-right: $padding-4;
+}
+
+.py-1 {
+    padding-top: $padding-1;
+    padding-bottom: $padding-1;
+}
+
+.py-2 {
+    padding-top: $padding-2;
+    padding-bottom: $padding-2;
+}
+
+.py-3 {
+    padding-top: $padding-3;
+    padding-bottom: $padding-3;
+}
+
+.py-4 {
+    padding-top: $padding-4;
+    padding-bottom: $padding-4;
+}
+
+.mx-1 {
+    margin-left: $margin-1;
+    margin-right: $margin-1;
+}
+.mx-2 {
+    margin-left: $margin-2;
+    margin-right: $margin-2;
+}
+.mx-3 {
+    margin-left: $margin-3;
+    margin-right: $margin-3;
+}
+.mx-4 {
+    margin-left: $margin-4;
+    margin-right: $margin-4;
+}
+.my-1 {
+    margin-top: $margin-1;
+    margin-bottom: $margin-1;
+}
+.my-2 {
+    margin-top: $margin-2;
+    margin-bottom: $margin-2;
+}
+.my-3 {
+    margin-top: $margin-3;
+    margin-bottom: $margin-3;
+}
+.my-4 {
+    margin-top: $margin-4;
+    margin-bottom: $margin-4;
+}
+
+.float-l {
+    float: left;
+}
+.float-r {
+    float: right;
+}
+
+.list-unstyled {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.d-inline {
+    display: inline-block !important;
+}
+
+.d-desktop {
+    display: none !important;
+}
+.d-tablet {
+    display: none !important;
+}
+
+.btn-primary {
+    background-color: rgb(2, 104, 217);
+    color: white;
+}
+.btn-danger {
+    background-color: rgb(210, 35, 50);
+    color: white;
+}
+
+.btn:disabled {
+    cursor: none;
+    opacity: 0.8;
+}
+.sr-only {
+    position: absolute !important;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    color: white;
+}
+.full-width {
+    width: 100%;
+}
+.container {
+    width: 100%;
+    margin: 0 auto; /*here auto is for left and right, the remaining 4% will be divided equally*/
+}
+/*for deskstop*/
+@media (min-width: 1024px) {
+    .container {
+        width: 100%;
+        max-width: 1440px;
+    }
+}
+@media (min-width: $mobile-breakpoint) {
+    .d-mobile {
+        display: none !important;
+    }
+    // .d-tablet{
+    //     display: contents !important;
+    // }
+    .d-desktop {
+        display: contents !important;
+    }
+}
+// @media (min-width: $tablet-breakpoint) {
+//     .d-mobile {
+//         display: none !important;
+//     }
+//     .d-tablet{
+//         display: none !important;
+//     }
+//     .d-desktop {
+//         display: contents !important;
+//     }
+// }

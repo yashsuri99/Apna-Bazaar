@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,YAAY,CAAC;EACT,SAAS,ECMI,MAAM;EDLnB,UAAU,EAAE,IAAI;CACnB",
+    "sources": [
+        "Wrapper.scss",
+        "../../../styles/_variables.scss"
+    ],
+    "names": [],
+    "file": "Wrapper.css"
+}

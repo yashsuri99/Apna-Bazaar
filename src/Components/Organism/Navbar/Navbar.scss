@@ -1,0 +1,88 @@
+@import "../../../styles/imports";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    // overflow-x: hidden;
+}
+.header {
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 0px #9e9e9e;
+
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        color: $text-color;
+        max-width: $max-width-screen;
+        margin: 0 auto;
+        @media screen and (max-width: $breakpoint-mobile) {
+            background-color: #ddd;
+        }
+        &-navbar {
+            padding-bottom: 0.8rem;
+            display: flex;
+            flex-grow: 1;
+            align-items: flex-end;
+            font-size: 1rem;
+            padding-left: 4.5rem;
+            &-link {
+                margin-right: 2rem;
+                font-weight: bold;
+                text-decoration: none;
+                color: #4d4d4d;
+            }
+            @media screen and (max-width: $breakpoint-mobile) {
+                display: none;
+            }
+            @media screen and (max-width: $breakpoint-tablet) {
+                padding-left: 2.5rem;
+            }
+        }
+        &-navbarWrapper {
+            min-height: 100%;
+            display: flex;
+            align-items: flex-end;
+            flex-direction: column;
+            justify-content: space-between;
+            overflow: hidden;
+            min-width: 180px;
+            &-content {
+                display: none;
+            }
+            @media screen and (max-width: $breakpoint-mobile) {
+                flex-direction: row;
+                .header-container-navbarWrapper-login {
+                    color: black;
+                    padding: 15px 6px;
+                    text-decoration: none;
+                    display: block;
+                    font-size: 11.5px;
+                    margin-bottom: 8px;
+                }
+            }
+            &-cart {
+                width: 100%;
+                height: 100%;
+                text-decoration: none;
+            }
+            &-login {
+                display: inline-block;
+                padding-top: 5px;
+                font-size: 1rem;
+                padding-left: 1.5rem;
+                &-link {
+                    margin-right: 0.5rem;
+                    font-weight: bold;
+                    text-decoration: none;
+                    color: #212121;
+                }
+                @media screen and (max-width: $breakpoint-mobile) {
+                    display: none;
+                }
+            }
+        }
+    }
+}
